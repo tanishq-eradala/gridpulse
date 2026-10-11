@@ -1,0 +1,9 @@
+backend/gridpulse.db*
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+*.db*
+__pycache__/
+.env
+.env.*
+!.env.example

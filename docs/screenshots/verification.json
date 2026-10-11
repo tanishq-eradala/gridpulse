@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "checks": [
+    "empty workspace and live SSE connection",
+    "SSE updates the dashboard after a valid sample",
+    "two abnormal samples do not open a persistent alert",
+    "third abnormal sample opens one durable alert and chart",
+    "identical sample retry leaves counts and alert history unchanged",
+    "changed payload with a reused sample ID is rejected",
+    "invalid readings and unknown equipment do not persist",
+    "normal sample resolves the alert without erasing history",
+    "equipment selection isolates readings and equipment state",
+    "polling recovers new readings while SSE is unavailable",
+    "live stream reconnects after recovery",
+    "Prometheus metrics match persisted readings and alert status",
+    "390px layout containment",
+    "320px layout containment",
+    "no unhandled browser errors"
+  ],
+  "scope": "Synthetic readings in a disposable database. No physical equipment or sustained-load validation."
+}
